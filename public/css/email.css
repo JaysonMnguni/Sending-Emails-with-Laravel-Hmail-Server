@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background: linear-gradient(to right,#121A50, #4A297A, #8A288F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* <!-- Email Content Wrapper --> */
+.email-content-wrapper{
+    width: 500px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:#121A50 0px 3px 6px;
+}
+
+.email-content-wrapper h2{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.email-content-wrapper h3 span{
+    color: gray;
+}

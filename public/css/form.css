@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background: linear-gradient(to right,#121A50, #4A297A, #8A288F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Send Email Button */
+#send-email-btn{
+    background-color: #8A288F;
+    color: white;
+}
